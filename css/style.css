@@ -4,6 +4,7 @@
     padding: 0;
     border: 0;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 body
@@ -14,6 +15,16 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+
+section {
+  display: flex;
+}
+
+.principal
+{
+    overflow: auto;
 }
 
 .formulario
@@ -22,6 +33,7 @@ body
     width: 350px;
     height: 550px;
     border-radius: 10px;
+
 }
 
 .classImage {
@@ -38,7 +50,7 @@ body
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    order: 2 ;
+    order: 2;
 }
 
 input
@@ -60,7 +72,7 @@ button
     cursor: pointer;
 }
 
-@media only screen AND (max-width: 1024px) /* tamanho do projeto final 1024px */
-{
-    
+#principal {
+    display: flex;
+    gap: 10px; 
 }
